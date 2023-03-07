@@ -21,7 +21,7 @@ pip install git+https://github.com/R0D7/voice_assistant_chatgpt.git
 ```
 pip install -r requirements.txt
 ```
-3. You must enter your openai API key the first time you run the file 
+3. You must enter your openai API key the first time you run the file (You can change it later by editing it in the file openai_api_key.txt)
 
 ## Usage
 1. Run the program by assistant_r0d7.py
