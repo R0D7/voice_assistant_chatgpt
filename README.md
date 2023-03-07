@@ -15,7 +15,7 @@ This program is a voice assistant that utilizes Whisper API to transcribe audio 
 ## Installation
 1. Clone the repository by running 
 ```
-pip install git+https://github.com/R0D7/voice_assistant_chatgpt.git
+git clone https://github.com/R0D7/voice_assistant_chatgpt.git
 ```
 2. Install the required packages by running the following command :
 ```
