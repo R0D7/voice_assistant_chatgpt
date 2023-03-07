@@ -3,9 +3,9 @@ import pyaudio
 import keyboard
 import time
 
-def speech_to_audiofiles_():
+def speech_to_audiofiles_(speech_path):
 
-    speech_wave = wave.open("path\\speech.wav", "wb")
+    speech_wave = wave.open(speech_path, "wb")
 
     speech_wave.setnchannels(1)
     speech_wave.setsampwidth(2)
