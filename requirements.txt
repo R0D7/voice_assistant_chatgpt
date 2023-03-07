@@ -1,0 +1,6 @@
+openai
+keyboard
+pyaudio
+speechrecognition
+pyttsx3
+wave
