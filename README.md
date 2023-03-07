@@ -13,12 +13,18 @@ This program is a voice assistant that utilizes Whisper API to transcribe audio 
 * Additional packages (listed in requirements.txt)
 
 ## Installation
-1. Clone the repository.
-2. Install the required packages by running pip install -r requirements.txt.
+1. Clone the repository by running 
+```
+pip install git+https://github.com/R0D7/voice_assistant_chatgpt.git
+```
+2. Install the required packages by running the following command :
+```
+pip install -r requirements.txt
+```
 3. You must enter your openai API key the first time you run the file 
 
 ## Usage
-1. Run the program by assistant_r0d7.
+1. Run the program by assistant_r0d7.py
 2. Press the hotkey (default is '+') to activate the assistant and speak your message.
 3. Press the hotkey (default is '-') to receive the assistant's response.
 4. Press the slash key ('/') to deactivate the assistant.
