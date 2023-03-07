@@ -14,7 +14,7 @@ if os.path.exists(os.path.dirname(os.path.abspath(__file__))+"\\openai_api_key.t
     with open(os.path.dirname(os.path.abspath(__file__))+"\\openai_api_key.txt", "r") as f:
         api_key = f.read().strip()
 else:
-    api_key = input("Entrez votre clé API openai : ")
+    api_key = input("Enter your openai API key : ")
 
     with open(os.path.dirname(os.path.abspath(__file__))+"\\openai_api_key.txt", "w") as f:
         f.write(api_key)
