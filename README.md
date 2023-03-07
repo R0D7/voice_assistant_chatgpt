@@ -2,10 +2,10 @@
 This program is a voice assistant that utilizes Whisper API to transcribe audio to text and OpenAI's GPT-3 to generate responses. It is designed to be activated by a hotkey, and the user's spoken message is transcribed into text and used as input to GPT-3 to generate a response. The response is then synthesized into speech and played back to the user.
 
 ## Features
-Hotkey activation
-Speech-to-text transcription using the Whisper API
-Text-to-speech synthesis
-GPT-3 for natural language generation
+* Hotkey activation
+* Speech-to-text transcription using the Whisper API
+* Text-to-speech synthesis
+* GPT-3 for natural language generation
 
 ## Requirements
 * OpenAI API key
