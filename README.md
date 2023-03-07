@@ -15,8 +15,7 @@ This program is a voice assistant that utilizes Whisper API to transcribe audio 
 ## Installation
 1. Clone the repository.
 2. Install the required packages by running pip install -r requirements.txt.
-3. Replace "API_KEY" (line 9) in assistant_r0d7 by your API key.
-4. Replace the the path in speech_to_audiofiles.py (line 8) and in speech_to_text.py (line 3) by the path of the speech.wav files (in speech_to_audiofiles directory)
+3. You must enter your openai API key the first time you run the file 
 
 ## Usage
 1. Run the program by assistant_r0d7.
